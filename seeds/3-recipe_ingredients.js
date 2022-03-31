@@ -1,0 +1,88 @@
+exports.seed = (knex) => {
+  return knex('recipes_ingredients').insert([
+    {
+      id: 1,
+      recipes_id: 1001,
+      ingredients_id: 8001,
+      amount: '4-6',
+      specifics: '',
+    },
+    {
+      id: 2,
+      recipes_id: 1001,
+      ingredients_id: 8002,
+      amount: '1',
+      specifics: '',
+    },
+    {
+      id: 3,
+      recipes_id: 1001,
+      ingredients_id: 8003,
+      amount: '1/3 cup',
+      specifics: '',
+    },
+    {
+      id: 4,
+      recipes_id: 1001,
+      ingredients_id: 8004,
+      amount: '2 Tbsp',
+      specifics: '',
+    },
+    {
+      id: 5,
+      recipes_id: 1001,
+      ingredients_id: 8005,
+      amount: '2',
+      specifics: '',
+    },
+    {
+      id: 6,
+      recipes_id: 1001,
+      ingredients_id: 8006,
+      amount: '1 tin',
+      specifics: '',
+    },
+    {
+      id: 7,
+      recipes_id: 1001,
+      ingredients_id: 8007,
+      amount: '2 Tbsp',
+      specifics: 'finely chopped',
+    },
+    {
+      id: 8,
+      recipes_id: 1001,
+      ingredients_id: 8008,
+      amount: 'pinch',
+      specifics: '',
+    },
+    {
+      id: 9,
+      recipes_id: 1001,
+      ingredients_id: 8009,
+      amount: '350g',
+      specifics: '',
+    },
+    {
+      id: 10,
+      recipes_id: 1001,
+      ingredients_id: 8010,
+      amount: '1/2 cup',
+      specifics: 'finely chopped',
+    },
+    {
+      id: 11,
+      recipes_id: 1001,
+      ingredients_id: 8011,
+      amount: '1/2 cup',
+      specifics: 'finely chopped',
+    },
+    {
+      id: 12,
+      recipes_id: 1001,
+      ingredients_id: 8012,
+      amount: 'for serving',
+      specifics: 'optional',
+    },
+  ])
+}
